@@ -39,6 +39,7 @@ form {
 div {
   border: none;
   padding: 20px 0;
+  width:  auto;
  
 }
 
@@ -76,7 +77,6 @@ input[type="submit"] {
   font-size: 1.1rem;
   background-color: #7a7c80b9;
   border-color: #7a7c80;
-  min-width: 300px;
 }
 
 fieldset {
