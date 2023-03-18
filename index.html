@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <section>
+    <h1 id="title"><a href="https://www.facebook.com/ASAC.LTUC"> Aziz Al Ghurair School of Advanced Computing</a></h1>
+    <p id="description">Grant Application Form</p>
+    <form id="survey-form" action="">
+        <fieldset>
+            <div>
+                <label id="name-label" for="name">Name</label><input id="name" name="name" required
+                    placeholder=" inter youe name" type="text" />
+                <label id="email-label" for="email">Email</label><input id="email" name="email"
+                    placeholder=" inter youe email" required type="email" />
+                    
+                    <label id="number-label" for="number">Input your age (years): <input id="number" placeholder=">Input your age"  type="number" name="age" min="13" max="120" /></label>            </div>
+            <div>
+                <label for="dropdown">What is your highest level of scientific education?
+                    <select name="education" id="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="vocationalSchool">Vocational school</option>
+                        <option value="communityCollege">Community college</option>
+                        <option value="bachelor'sDegree">Bachelor's degree</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <p>Which field of development do you want to pursue in the future ?</p>
+                <label for="full-stack"><input class="inline" name="theSelect" id="full-stack" value="full-stack"
+                        type="radio">full-stack</label>
+                <label for="front-end"><input class="inline" name="theSelect" id="front-end" value="front-end"
+                        type="radio">front-end</label>
+                <label for="back-end"><input class="inline" id="back-end" name="theSelect" value="theSelect"
+                        type="radio">back-end</label>
+
+
+
+            </div>
+            <div>
+                <p>What programming language do you want to learn?</p>
+                <label for="python"><input class="inline" name="theSelect" id="python" value="python"
+                        type="checkbox">python</label>
+                <label for="javaScript"><input class="inline" name="theSelect" id="javaScript" value="javaScript"
+                        type="checkbox">JavaScript</label>
+                <label for="java"><input class="inline" id="java" name="theSelect" value="java"
+                        type="checkbox">Java</label>
+                <label for="c++"><input class="inline" id="c++" value="c++" name="theSelect" type="checkbox">C++</label>
+            </div>
+
+            <label for="about"></label>Can you tell us about yourself and why should we choose you?
+            <textarea name="about"  placeholder=" write here" id="about" cols="30" rows="10"></textarea>
+        
+        <input id="submit" type="submit" value="Submit" />
+    </fieldset>
+    </form>
+</section>
+</body>
+
+</html>
